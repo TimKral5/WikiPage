@@ -1,0 +1,54 @@
+html, body {
+    font-family: "Courier New";
+}
+
+body > div#content {
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    right: 0px;
+    bottom: 0px;
+}
+
+body > div.nav-top {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    display: flex;
+
+    background-color: black;
+}
+div.nav-top > div.title {
+    display: flex;
+    color: white;
+    align-content: center;
+    width: max-content;
+    padding-top: 15px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+div.nav-top > a.item {
+    display: flex;
+    color: white;
+    align-content: center;
+    
+    width: max-content;
+    height: max-content;
+    
+    margin-top: 10px;
+    margin-left: 10px;
+    
+    padding-top: 8.79px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 7px;
+
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+div.nav-top > a.item:hover {
+    background-color: rgb(50, 50, 50);
+}

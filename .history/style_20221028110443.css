@@ -1,0 +1,15 @@
+div.nav-top {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+
+    background-color: black;
+}
+div.nav-top > div.title {
+    display: flex;
+    color: white;
+    align-content: center;
+    width: max-content;
+}

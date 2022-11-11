@@ -1,0 +1,38 @@
+html, body {
+    font-family: "Courier New";
+}
+
+
+
+div.nav-top {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    display: flex;
+
+    background-color: black;
+}
+div.nav-top > div.title {
+    display: flex;
+    color: white;
+    align-content: center;
+    width: max-content;
+    padding-top: 15px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+div.nav-top > a.item {
+    display: flex;
+    color: white;
+    align-content: center;
+    width: max-content;
+    padding-top: 18.79px;
+    margin-left: 10px;
+    font-size: 15px;
+    text-decoration: none;
+}
+div.nav-top > a.item:hover {
+    background-color: rgb(50, 50, 50);
+}

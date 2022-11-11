@@ -1,0 +1,123 @@
+html, body {
+    font-family: "Courier New";
+}
+
+body > div#content {
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    right: 0px;
+    bottom: 0px;
+}
+
+iframe#contents {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+
+    width: 100%;
+    height: 100%;
+}
+
+body > div.nav-side {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    bottom: 0px;
+    width: 200px;
+    background-color: rgb(240  240 240);
+}
+
+body > div.nav-top {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    display: flex;
+
+    background-color: rgb(0 0 0);
+}
+
+div.nav-top > div.title {
+    display: flex;
+    color: rgb(255 255 255);
+    align-content: center;
+    width: max-content;
+    padding-top: 15px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+div.nav-top > a.item {
+    display: flex;
+    color: rgb(255 255 255);
+    align-content: center;
+    
+    width: max-content;
+    height: max-content;
+    
+    margin-top: 10px;
+    margin-left: 10px;
+    
+    padding-top: 8.79px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 7px;
+
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+div.nav-top > a.item:hover {
+    background-color: rgb(50 50 50);
+}
+
+div.nav-side > a.item {
+    display: flex;
+    color: rgb(0 0 0);
+    align-content: center;
+    
+    position: relative;
+    height: max-content;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    padding-top: 4.79px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+div.nav-side > p.title {
+    display: flex;
+    color: rgb(0 0 0);
+    align-content: center;
+    
+    position: relative;
+    height: max-content;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    padding-top: 4.79px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+div.nav-side > a.item:hover {
+    background-color: rgb(205 205 205);
+}

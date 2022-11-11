@@ -1,0 +1,12 @@
+table {
+    font-size: 16px;
+}
+
+div.container {
+    display: flex;
+}
+
+div.container > section {
+    margin-left: 10px;
+    margin-right: 10px;
+}
